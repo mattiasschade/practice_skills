@@ -1,0 +1,20 @@
+3a. Line 5 assigns a new instance of the class called "List" to the variable, "list". The class, "List", is hosted in the file titled "list.rb"
+3b. Line 8 passes the argument "Feed the cat" into a new instance of the "Task" class.
+    In this instance of the "Task" class the variable @name is assigned "Feed the cat" and the
+    variable @complete is assigned a value of false thanks to the constructor.
+    Line 8 also calls on a new instance of the add_task function in the List class. 
+    This passes the argument "Feed the cat" into the function which shovels "Feed the cat" into the array called @tasks
+    whithin the List class.
+3c.line 14 prints the second item in the array, @tasks by calling on the tasks function within the List class.
+3d. Line 31 calls on the complete! function within the Task class to reassign the value of the first item
+within the @tasks array to have a @complete value of true.
+
+4a. I would say that oop_todo would be easier to scale up, customize, and make changes to. Having the List and Task classes allows
+you to add more functions within them. It also may be conceptually easier for some to think of the three different elements on their own
+as the list factory, the task factory, and the actual to-do list maker.
+4b. procedural_todo has the advantage of being on one file so you don't have to jump around to figure out what's going on.
+It's also easier for me to read and understand what it's doing as it's presented in a linear fashion. This may make it the easier version to troubleshoot.
+
+
+
+
